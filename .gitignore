@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+# Flutter / Dart
+**/.dart_tool/
+**/.pub/
+**/build/
+**/coverage/
+**/.flutter-plugins-dependencies
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/*.apk
+**/*.aab
+**/android/**/hs_err_pid*.log
+**/android/**/replay_pid*.log
+
+# iOS (removed from demo; ignore if re-added)
+**/ios/Pods/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/Generated.xcconfig
+
+# Supabase CLI
+.supabase/
+
+# Signing / credentials
+*.jks
+*.keystore
+**/service-account*.json
+**/firebase-adminsdk*.json
+**/android/app/google-services.json
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Python (FastAPI backend)
+**/__pycache__/
+**/.venv/
+**/venv/
+**/.pytest_cache/
