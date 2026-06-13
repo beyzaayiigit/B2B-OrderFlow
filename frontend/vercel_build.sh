@@ -10,3 +10,4 @@ export PATH="$PATH:$HOME/flutter/bin"
 flutter config --enable-web
 flutter pub get
 flutter build web --release
+cp vercel.json build/web/vercel.json
